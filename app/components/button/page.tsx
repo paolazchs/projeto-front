@@ -5,7 +5,7 @@ interface ButtonProps {
 
 export default function ButtonPage({children} : ButtonProps ){
     return(
-        <button  className="w-[27vw] h-[10vh] border-none bg-[#FFF9D8] rounded-sm">
+        <button  className="w-[27vw] h-[10vh] border-none bg-[#FFF9D8] rounded-sm cursor-pointer">
             {children}
         </button>
     );
